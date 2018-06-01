@@ -57,7 +57,7 @@ class Visitas extends \yii\db\ActiveRecord
             'valor_neto' => 'Valor Neto',
             'valor_visita' => 'Valor Visita',
             'observaciones' => 'Observaciones',
-            'cliente_id' => 'Cliente ID',
+            'cliente_id' => 'Cliente',
         ];
     }
 

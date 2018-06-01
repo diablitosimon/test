@@ -69,8 +69,8 @@ class Clientes extends \yii\db\ActiveRecord
             'cupo' => 'Cupo',
             'saldo' => 'Saldo',
             'pais' => 'Pais',
-            'municipio_id' => 'Municipio ID',
-            'departamento_id' => 'Departamento ID',
+            'municipio_id' => 'Municipio',
+            'departamento_id' => 'Departamento',
         ];
     }
 

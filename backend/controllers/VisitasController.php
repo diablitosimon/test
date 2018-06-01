@@ -68,7 +68,7 @@ class VisitasController extends Controller
 
         if ($model->load(Yii::$app->request->post())) {
             $model->fecha = date('Y-m-d h:m:s');
-            $model->vendedor = Yii::$app->user;
+            $model->vendedor = Yii::$app->user->identity->username;
             $model->save();
             return $this->redirect(['view', 'id' => $model->id]);
         }
